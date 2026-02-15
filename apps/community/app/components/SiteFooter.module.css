@@ -1,0 +1,38 @@
+.footer {
+  margin-top: auto;
+  padding: var(--space-5, 24px) var(--space-4, 16px);
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.footerInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3, 12px);
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  gap: var(--space-4, 16px);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.links a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: var(--color-primary-light);
+}
+
+.copyright {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}

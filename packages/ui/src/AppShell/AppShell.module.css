@@ -1,0 +1,66 @@
+.shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* 헤더/네비: 전체 폭 | 콘텐츠 영역: 좌우 패딩 + 가운데 정렬 */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.contentWrapper {
+  flex: 1;
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-4, 16px);
+  padding-right: var(--space-4, 16px);
+}
+
+@media (min-width: 768px) {
+  .contentWrapper {
+    padding-left: var(--space-5, 24px);
+    padding-right: var(--space-5, 24px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .contentWrapper {
+    padding-left: var(--space-6, 32px);
+    padding-right: var(--space-6, 32px);
+  }
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  gap: var(--space-4, 16px);
+}
+
+.leftBanner,
+.rightBanner {
+  width: 200px;
+  flex-shrink: 0;
+  background: var(--color-surface);
+  border-radius: var(--radius-2, 8px);
+}
+
+@media (max-width: 768px) {
+  .leftBanner,
+  .rightBanner {
+    display: none;
+  }
+}
+
+.main {
+  flex: 1;
+  min-width: 0;
+  background: var(--color-bg);
+}

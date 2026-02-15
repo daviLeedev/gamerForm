@@ -1,0 +1,51 @@
+﻿:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --radius-1: 4px;
+  --radius-2: 8px;
+  --radius-3: 12px;
+
+  --primary-500: #7A30F5;
+  --primary-600: #691EE3;
+  --primary-700: #5819B0;
+  --primary-300: #A678FF;
+
+  --accent-cyan-500: #22D3EE;
+  --accent-lime-500: #A3E635;
+  --accent-red-500: #EF4444;
+  --accent-amber-500: #F59E0B;
+
+  --bg-900: #F4F6FB;
+  --bg-850: #FFFFFF;
+  --bg-800: #E4E8F8;
+  --bg-750: #D9DDFF;
+  --border-700: #D1D5EA;
+  --divider-650: #C4C9DE;
+
+  --text-100: #0F172A;
+  --text-200: #1F2937;
+  --text-300: #334155;
+  --text-400: #4B5563;
+
+  --overlay: rgba(15, 23, 42, 0.55);
+  --glow-primary: rgba(121, 37, 245, 0.25);
+
+  --color-bg: var(--bg-900);
+  --color-surface: var(--bg-850);
+  --color-surface-elevated: var(--bg-800);
+  --color-surface-hover: var(--bg-750);
+  --color-border: var(--border-700);
+  --color-divider: var(--divider-650);
+  --color-text: var(--text-100);
+  --color-text-secondary: var(--text-200);
+  --color-text-muted: var(--text-300);
+  --color-text-disabled: var(--text-400);
+  --color-primary: var(--primary-500);
+  --color-primary-hover: var(--primary-600);
+  --color-primary-active: var(--primary-700);
+  --color-primary-light: var(--primary-300);
+}
